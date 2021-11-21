@@ -3,6 +3,11 @@
 The Parts Unlimited backend is Node web app written with [Express](https://expressjs.com/)
 
 ## Getting started
+First, make sure the mongodb is installed on your local environment (if not - use [this link](https://zellwk.com/blog/install-mongodb/)).
+
+Run `npm install` to install all the relevant models.
+
+Before running the server, you'll need to add `.env` file to your local environment with `MONGODB_URI`
 
 To start the app use: `yarn dev` from the backend directory.
 
